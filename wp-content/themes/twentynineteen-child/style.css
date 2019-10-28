@@ -1,0 +1,243 @@
+/*
+Theme Name:   Twentynineteen Theme Child
+Theme URI:    http://example.com/twentynineteen-child/
+Description:  Twentynineteen Child Theme
+Author:   	Zoe Djukic
+Author URI:   https://zoedj.github.io/
+Template: 	twentynineteen
+Version:      2.0.0
+Text Domain:  twentynineteen-child
+*/
+
+/* -------------------------- Global --------------------------*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 0.7em;
+}
+
+a,
+a:link,
+a:visited {
+  color: black;
+}
+
+.btn {
+  background: #aed036;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  padding: 5px;
+  width: 260px;
+  border-radius: 20px;
+}
+
+.main-content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* -------------------------- Navbar --------------------------*/
+
+.site-header {
+  padding: 0px;
+  margin: 0px;
+}
+.top-nav li {
+  list-style-type: none;
+  color: black;
+  display: inline;
+  margin-right: 10px;
+  text-transform: lowercase;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* .top-nav li a:active {
+  border-bottom: 3px solid #aed036;
+} */
+
+/* -------------------------- Hero --------------------------*/
+
+.entry-title {
+  display: none;
+}
+
+.top_part h3 {
+  margin-top: -450px;
+  width: 40%;
+}
+
+.top_part img {
+  border-radius: 0px 0px 0px 100%;
+  margin-top: 0px;
+  margin-left: 500px;
+}
+
+.home-page {
+  width: 100%;
+  height: 800px;
+  background: url(img/background-graphic-1.svg) no-repeat bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* -------------------------- Services --------------------------*/
+
+.services-photo {
+  margin-top: 300px;
+}
+
+.services {
+  margin-top: -300px;
+  width: 50%;
+  float: right;
+}
+.services .btn {
+  margin-top: 50px;
+  margin-right: 250px;
+}
+
+/* -------------------------- Reasons Why  --------------------------*/
+
+.reasons {
+  width: 45%;
+  margin-top: 200px;
+  float: left;
+}
+
+.main-reason {
+  width: 50%;
+  margin-top: 160px;
+  float: right;
+}
+
+/* -------------------------- Process  --------------------------*/
+
+.phase {
+  float: left;
+  width: 28%;
+  margin: -450px 25px 150px 25px;
+  box-shadow: 5px 5px 30px lightgrey;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+}
+/* hr {
+  background-color: #aed036;
+  border-color: #aed036;
+  color: #aed036;
+  margin-top: 60px;
+  z-index: -1;
+  position: relative;
+} */
+
+.process {
+  text-align: center;
+}
+
+.process .number {
+  color: #aed036;
+}
+
+.background-image {
+  width: 50vh;
+  height: 50vh;
+  background: url(img/background-graphic-2.svg) no-repeat top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left: 900px;
+  z-index: -1;
+  position: relative;
+}
+
+/* -------------------------- Benefits  --------------------------*/
+
+.benefits {
+  float: left;
+}
+
+.benefits p {
+  box-shadow: 3px 3px 20px lightgrey;
+  border-radius: 8px;
+  padding: 10px;
+}
+.benefits-text {
+  box-shadow: 5px 5px 30px lightgrey;
+  border-radius: 20px;
+  padding: 10px;
+  width: 50%;
+  float: right;
+  margin-top: 80px;
+}
+/* -------------------------- Contact Us --------------------------*/
+
+br {
+  clear: both;
+}
+
+.contact-us img {
+  width: 50%;
+  float: left;
+  margin-top: 100px;
+}
+.contact-us h3 {
+  float: right;
+  width: 50%;
+  margin-top: -300px;
+}
+.contact-us .btn {
+  width: 250px;
+  margin-top: -110px;
+  margin-right: 250px;
+}
+#content {
+  height: 3200px;
+}
+
+/* -------------------------- Footer --------------------------*/
+
+.footer-menu a,
+.footer-menu a:link,
+.footer-menu a:visited {
+  color: white;
+  text-transform: lowercase;
+}
+
+.menu a,
+.footer-menu a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.social-btns {
+  text-align: center;
+}
+.soc-icon .fb {
+  background: url(img/icon-facebook.svg) no-repeat center;
+  background-size: cover;
+}
+
+.site-footer {
+  background-color: #212323;
+  color: white;
+}
+.social-btns {
+  text-align: center;
+}
