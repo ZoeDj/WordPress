@@ -152,16 +152,11 @@ a:visited {
 }
 
 .background-image {
-  width: 50vh;
-  height: 50vh;
-  background: url(img/background-graphic-2.svg) no-repeat top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  width: 500px;
+  height: 500px;
+  background: url(img/background-graphic-2.svg) no-repeat;
+  background-size: contain;
   margin-left: 900px;
-  z-index: -1;
-  position: relative;
 }
 
 /* -------------------------- Benefits  --------------------------*/
@@ -227,11 +222,25 @@ br {
   font-size: 17px;
 }
 .social-btns {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-.soc-icon .fb {
-  background: url(img/icon-facebook.svg) no-repeat center;
+.social-btn {
+  margin-top: -25px;
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  display: block;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+}
+.fb-btn {
+  background: url(img/icon-facebook.svg) no-repeat center;
+}
+.ln-btn {
+  background: url(img/icon-linkedin.svg) no-repeat center;
 }
 
 .site-footer {
@@ -240,4 +249,55 @@ br {
 }
 .social-btns {
   text-align: center;
+}
+
+/* --------------------------------- Form ----------------------------------- */
+#nf-form-1-cont {
+  box-shadow: 5px 5px 30px lightgrey;
+  border-radius: 20px;
+  padding: 15px;
+  width: 50%;
+  float: right;
+}
+
+#nf-field-4 {
+  background: #aed036;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  padding: 5px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* .ninja-forms-req-symbol {
+  display: none;
+} */
+
+/*----------------------------------Mobile----------------------------------*/
+
+@media screen and (max-width: 600px) {
+  /* body {
+    padding-left: 10px;
+    padding-right: 10px;
+  } */
+}
+
+/*---------------------------------- Tablet ----------------------------------*/
+
+@media only screen and (min-width: 768px) {
+  body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+/*---------------------------------- Desktop ----------------------------------*/
+
+@media only screen and (min-width: 960px) {
+}
+/*-------------------------------Wide Screen Desktop-------------------------------*/
+@media only screen and (min-width: 1900px) {
 }

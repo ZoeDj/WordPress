@@ -18,3 +18,12 @@ add_action( 'wp_enqueue_scripts', 'twentynineteen_child_scripts' );
 	
 get_field('custom_field_name');
 
+// This theme uses wp_nav_menu() in two locations.
+register_nav_menus(
+	array(
+		'menu-1' => __( 'Primary', 'twentynineteen-child' ),
+		'footer' => __( 'Footer Menu', 'twentynineteen-child' ),
+		'social' => __( 'Social Links Menu', 'twentynineteen-child' ),
+	)
+);
+
