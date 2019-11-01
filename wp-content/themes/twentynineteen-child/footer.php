@@ -12,17 +12,11 @@
  */
 
 ?>
-
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer">
-			<?php if ( has_nav_menu( 'footer' ) ) : ?>
-
+    <footer id="colophon" class="site-footer">
+	    <?php if ( has_nav_menu( 'footer' ) ) : ?>
+			<nav class="footer-navigation white-text" aria-label="<?php esc_attr_e( 'Footer Menu', 'twentynineteen' ); ?>">
+				<?php
 			
-
-				<nav class="footer-navigation white-text" aria-label="<?php esc_attr_e( 'Footer Menu', 'twentynineteen' ); ?>">
-                    <?php
-                
 					wp_nav_menu(
 						array(
 							'theme_location' => 'footer',
@@ -31,16 +25,13 @@
 						)
 					);
 					?>
-                </nav><!-- .footer-navigation -->
-                <div class="social-btns">
-					<div class="social-btn fb-btn"><a href="" class="soc-icon fb"></a></div>
-					<div class="social-btn ln-btn"><a href="" class="soc-icon ln"></a></div>
-				    </div>
+			</nav><!-- .footer-navigation -->
+			<div class="social-btns">
+				<div class="social-btn fb-btn"><a href="" class="soc-icon fb"></a></div>
+				<div class="social-btn ln-btn"><a href="" class="soc-icon ln"></a></div>
+			</div>
 			<?php endif; ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-
-</div><!-- #page -->
+	</footer>
 
 <?php wp_footer(); ?>
 

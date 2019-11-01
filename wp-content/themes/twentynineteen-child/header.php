@@ -32,10 +32,9 @@
 			
 			<?php if ( is_singular() && twentynineteen_can_show_post_thumbnail() ) : ?>
 				
-						<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
-					</div><!-- .entry-header -->
-					<?php rewind_posts(); ?>
+				<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
+				<?php rewind_posts(); ?>
 			</div>
-		<?php endif; ?>
+		    <?php endif; ?>
 	</header><!-- #masthead -->
 	<div id="content" class="site-content">

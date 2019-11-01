@@ -28,10 +28,10 @@ get_header();
 
         </main><!-- #main -->
         <div class="top_part">
-					<img src="<?php echo $img_top; ?>" />
-					<h3><?php echo $main_title; ?></h3>
-					<p><?php echo $main_text; ?></p>
-				</div>
+			<img src="<?php echo $img_top; ?>" />
+			<h3><?php echo $main_title; ?></h3>
+			<p><?php echo $main_text; ?></p>
+		</div>
 	</section><!-- #primary -->
 
 <?php
