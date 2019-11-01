@@ -16,7 +16,6 @@
 	    <?php if ( has_nav_menu( 'footer' ) ) : ?>
 			<nav class="footer-navigation white-text" aria-label="<?php esc_attr_e( 'Footer Menu', 'twentynineteen' ); ?>">
 				<?php
-			
 					wp_nav_menu(
 						array(
 							'theme_location' => 'footer',
